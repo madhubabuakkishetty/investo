@@ -23,7 +23,7 @@ main {
 }
 
 .head-container {
-	background-color: var(--back-white);
+	background-color: gray;
 	height: 30px;
 
 }
@@ -50,6 +50,7 @@ main {
 }
 .navbar-container {
 	background-color: var(--back-white);
+	opacity: 0.8;
 	position: sticky;
 	top: 0px;
 	height: auto;
@@ -80,6 +81,11 @@ main {
 	margin-top: var(--main-top-margin);
 	
 }
+.slider-container {
+	height: auto;
+	width: 100%;
+	margin-top: 20px;
+}
 
 .profile-container {
 	background-color: var(--back-white);
@@ -102,7 +108,7 @@ main {
 .top-nav {
 	overflow: hidden;
 	/*background-color: var(--main-color);*/
-	border: 1px solid black;	
+	/*border: 1px solid black;*/	
 }
 
 
@@ -273,7 +279,7 @@ img {vertical-align: middle;}
 .slideshow-container {
   max-width: 100%;
   position: relative;
-  /*width: 800px;*/
+  width: 100%;
   margin: auto;
 }
 
