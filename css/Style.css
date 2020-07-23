@@ -154,6 +154,10 @@ main {
   	border-radius: 50%;
 }
 
+.avtar-img img:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .top-nav .nav-menu {
 	float: left;
 	display: block;
@@ -236,6 +240,10 @@ main {
 
 }
 
+.cat-box:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .cat-image {
 	padding: 5px;
 
@@ -251,6 +259,8 @@ main {
 
 
 
+
+
 .cat-container {
 	/*display: flex;
 	flex-wrap: wrap;*/
@@ -258,7 +268,7 @@ main {
 	grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
 	justify-content: center;
 	width: 100%;
-	box-shadow: var(--card-shadow);
+	/*box-shadow: var(--card-shadow);*/
 }
 
 
@@ -286,6 +296,11 @@ main {
 	background-color: var(--back-white);
 	padding-bottom: 5px;
 	margin: 10px;
+	/*border: 1px solid gray;*/
+	
+}
+
+.pro-card:hover {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
