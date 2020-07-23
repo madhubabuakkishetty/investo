@@ -96,6 +96,13 @@ main {
 	margin-top: var(--main-top-margin);
 }
 
+.upfooter-container {
+	background-color: var(--main-color);
+	width: 100%;
+	height: 200px;
+	margin-top: var(--main-top-margin);
+}
+
 
 .footer-container {
 	background-color: #a6f5c6;
@@ -450,3 +457,4 @@ img {vertical-align: middle;}
 
 
 /*slider code end*/
+
