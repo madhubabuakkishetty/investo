@@ -202,7 +202,7 @@ main {
 
 }
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
 	.top-nav a, top-nav input[type=text] {
 		float: none;
 		display: block;
@@ -232,7 +232,7 @@ main {
   	}
 
 
-}
+}*/
 
 
 .cat-box {
@@ -376,6 +376,68 @@ main {
   }
 }
 
+
+@media only screen and (max-width: 500px) {
+	.pro-container {
+  	display: grid;
+	grid-template-columns: auto;
+  }
+
+  .cat-container {
+  	display: grid;
+	grid-template-columns: auto auto auto;
+  }
+
+  .top-nav input[type=text] {
+  	width: 160px;
+  }
+
+  .top-nav .nav-menu {
+  	width: 40px;
+  	padding-top: 4px;
+  	/*padding-bottom: 1px;*/
+  	margin: 4px;
+  	
+  }
+
+  	.menu-3 {
+   		width: 25px;
+  		height: 4px;
+  		background-color: black;
+  		margin: 4px 8px;
+
+	}
+
+	.top-nav .nav-logo {
+		width:  160px;
+		height: 50px;
+		padding-top: 6px;
+		margin: 4px;
+	}
+
+}
+
+/*.top-nav .nav-menu {
+	float: left;
+	display: block;
+	background-color: orange;
+	width: 80px;
+	height: 50px;
+	padding: 5px;
+	margin: 4px;
+	border-radius: 5px;
+}
+
+.top-nav .nav-logo {
+	float: left;
+	display: block;
+	background-color: red;
+	width:  210px;
+	height: 50px;
+	padding: 0px;
+	margin: 4px;
+	border-radius: 5px;*/
+
 /*******************************media********************************************/ 
 /*silder code start*/
 
@@ -475,6 +537,8 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+
+  
 }
 
 
